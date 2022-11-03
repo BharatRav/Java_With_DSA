@@ -28,5 +28,7 @@ public class BinaryTreeInsertionStaticData {
         bt.rootNode.leftChild.rightChild = new Node(50);
         bt.rootNode.rightChild.leftChild = new Node(60);
         bt.rootNode.rightChild.rightChild = new Node(70);
+
+        //extra comment added
     }
 }
