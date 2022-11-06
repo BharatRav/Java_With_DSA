@@ -1,4 +1,4 @@
-package Greedy.Leetcode;
+package GreedyAgorithms.Leetcode;
 
 public class JumpGame {
     public boolean canJump(int[] nums) {
