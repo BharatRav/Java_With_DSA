@@ -14,7 +14,27 @@ public class BalancedBinaryTree {
         }
     }
     public boolean isBalanced(TreeNode root) {
-        return true;
-        //not completed
+        //i'm considering -1 as !balanced tree apart form it all value will
+        //signify that it is a balanced binary tree;
+        return (isBalancedHelper(root) != -1);
+    }
+    private int isBalancedHelper(TreeNode currentNode) {
+        if(currentNode == null) {
+            return 0;
+        }
+        int leftHeight = isBalancedHelper(currentNode.left);
+        if(leftHeight == -1) {
+            return -1;
+        }
+
+        int rightHeight = isBalancedHelper(currentNode.right);
+        if(rightHeight == -1) {
+            return -1;
+        }
+
+        if(Math.abs(leftHeight-rightHeight) > 1) {
+            return -1;
+        }
+        return Math.max(leftHeight,rightHeight)+1;
     }
 }
