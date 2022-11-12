@@ -1,9 +1,9 @@
 package Tree.BinaryTree.Leetcode;
-
+//Leetcode Linkk: Leetcode Link: https://leetcode.com/problems/serialize-and-deserialize-binary-tree/
 import java.util.LinkedList;
 import java.util.Queue;
 
-//Leetcode Linkk: Leetcode Link: https://leetcode.com/problems/serialize-and-deserialize-binary-tree/
+
 public class SerializeAndDeserializerBinaryTree {
     private class TreeNode {
         int val;
