@@ -2,9 +2,9 @@ package DynamicProgramming.Question;
 
 import java.util.Scanner;
 
-public class ZeroOneKnapsack {
+public class ZeroOneKnapsackRecursive {
     int[][] dp;
-    ZeroOneKnapsack(int n,int W) {
+    ZeroOneKnapsackRecursive(int n, int W) {
         dp = new int[n+1][W+1];
 
         for (int i=0;i<=n;i++) {
@@ -47,7 +47,7 @@ public class ZeroOneKnapsack {
             for (int i=0;i<n;i++) {
                 wt[i] = sc.nextInt();
             }
-            ZeroOneKnapsack zk = new ZeroOneKnapsack(n,W);
+            ZeroOneKnapsackRecursive zk = new ZeroOneKnapsackRecursive(n,W);
             int MaxTotalVal = zk.zeroOneKnapsack(val,wt,W,n);
             System.out.println(MaxTotalVal);
         }
