@@ -5,7 +5,7 @@ import java.util.Stack;
 //Leetcode Link:- https://leetcode.com/problems/evaluate-reverse-polish-notation/
 public class EvaluateReversePolishNotation {
 
-    public int evalRPN(String[] tokens) {
+    public  static int evalRPN(String[] tokens) {
         if (tokens.length==1) return Integer.parseInt(tokens[0]);
         int size= tokens.length;
 
