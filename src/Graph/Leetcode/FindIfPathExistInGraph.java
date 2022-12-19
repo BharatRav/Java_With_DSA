@@ -12,7 +12,7 @@ public class FindIfPathExistInGraph {
     public boolean validPath(int n, int[][] edges, int start, int end) {
         boolean[] visited = new boolean[n];
 
-        HashSet<Integer>[] graph = new HashSet<Integer>[];
+        HashSet<Integer>[] graph = new HashSet[n];
 
         for (int i=0;i<n;i++) {
             graph[i] = new HashSet<>();
