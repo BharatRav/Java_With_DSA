@@ -3,7 +3,7 @@ package Heap.Leetcode;
 import java.util.PriorityQueue;
 
 //Leetcode Link-https://leetcode.com/problems/remove-stones-to-minimize-the-total/description/
-public class Heap {
+public class RemoveStonesToMinimizeTheTotal {
     public int minStoneSum(int[] piles, int k) {
         PriorityQueue<Integer> heap = new PriorityQueue<>((a,b) -> b-a);
         int res = 0;
