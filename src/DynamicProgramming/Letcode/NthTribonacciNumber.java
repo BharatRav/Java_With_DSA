@@ -1,5 +1,5 @@
 package DynamicProgramming.Letcode;
-//Leetcode Link:-
+//Leetcode Link:-https://leetcode.com/problems/n-th-tribonacci-number/?envType=study-plan&id=dynamic-programming-i
 public class NthTribonacciNumber {
     public int tribonacci(int n) {
         if (n<=1) {
