@@ -33,7 +33,7 @@ public class SameTree {
             return (leftStatus && rightStatus);
         }
 
-        //if both not same vale but nodes are equal then also it is false
+        //if both not same value but nodes are equal then also it is false
         return false;
     }
 
