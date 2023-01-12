@@ -1,4 +1,4 @@
-package Graph.Leetcode;
+package Tree.Graph.Leetcode;
 
 import java.util.HashSet;
 import java.util.LinkedList;

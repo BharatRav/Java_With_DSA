@@ -1,4 +1,4 @@
-package Graph.Leetcode;
+package Tree.Graph.Leetcode;
 //Leetcode Link:-https://leetcode.com/problems/unique-paths-iii/
 public class UniquePathIII {
     public int uniquePathsIII(int[][] g) {
