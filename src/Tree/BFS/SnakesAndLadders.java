@@ -46,4 +46,5 @@ public class SnakesAndLadders {
         }
         return -1;
     }
+    //very very helpful reffrence:- https://leetcode.com/problems/snakes-and-ladders/solutions/173403/change-to-1d-array-then-bfs/?orderBy=most_votes
 }
