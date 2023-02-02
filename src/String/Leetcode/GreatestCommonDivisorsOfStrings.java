@@ -1,4 +1,7 @@
 package String.Leetcode;
+
+import java.util.ArrayList;
+
 //Leetcode Link:-https://leetcode.com/problems/greatest-common-divisor-of-strings/description/
 public class GreatestCommonDivisorsOfStrings {
     public String gcdOfStrings(String str1, String str2) {
