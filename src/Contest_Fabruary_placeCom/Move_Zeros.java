@@ -27,7 +27,7 @@ public class Move_Zeros {
             if (start<end) {
                 int temp= arr[start];
                 arr[start]=arr[end];
-                arr[end]=arr[start];
+                arr[end]=temp;
                 start++;
                 end--;
             }
