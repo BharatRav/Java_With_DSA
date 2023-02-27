@@ -1,5 +1,5 @@
 package Tree.Graph.Leetcode;
-
+//LeetcodeLink:-https://leetcode.com/problems/construct-quad-tree/description/
 class ConstructQuadTree {
 class Node {
     public boolean val;
