@@ -3,7 +3,7 @@ package Tree.BinaryTree.Leetcode;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class CheckCompetenessOfABinaryTree {
+public class CheckCompletenessOfABinaryTree {
     public class TreeNode {
       int val;
       TreeNode left;
